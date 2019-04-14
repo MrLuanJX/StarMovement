@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XZ_RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController * rootNav = [[UINavigationController alloc]initWithRootViewController:[XZ_RootViewController new]];
+    
+    self.window.rootViewController = rootNav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C1FD672CEF4B97952645C9 /* libPods-LJXXZYS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F443C1549827D1A4F34C33 /* libPods-LJXXZYS.a */; };
 		DD7D81B522621EFA00D35D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81B422621EFA00D35D8F /* AppDelegate.m */; };
 		DD7D81B822621EFA00D35D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81B722621EFA00D35D8F /* ViewController.m */; };
 		DD7D81BB22621EFA00D35D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81B922621EFA00D35D8F /* Main.storyboard */; };
@@ -15,6 +16,28 @@
 		DD7D81C322621EFC00D35D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81C222621EFC00D35D8F /* main.m */; };
 		DD7D81CD22621EFC00D35D8F /* LJXXZYSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81CC22621EFC00D35D8F /* LJXXZYSTests.m */; };
 		DD7D81D822621EFC00D35D8F /* LJXXZYSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81D722621EFC00D35D8F /* LJXXZYSUITests.m */; };
+		DD7D81E722621F1000D35D8F /* XZ_RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81E622621F1000D35D8F /* XZ_RootViewController.m */; };
+		DD7D81E922621F2000D35D8F /* xingzuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81E822621F2000D35D8F /* xingzuo.jpg */; };
+		DD7D81ED2262248B00D35D8F /* XZ_CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D81EC2262248B00D35D8F /* XZ_CollectionCell.m */; };
+		DD7D81FB2262291300D35D8F /* cn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81EF2262291300D35D8F /* cn.jpg */; };
+		DD7D81FC2262291300D35D8F /* shuangzi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F02262291300D35D8F /* shuangzi.jpg */; };
+		DD7D81FD2262291300D35D8F /* tc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F12262291300D35D8F /* tc.jpg */; };
+		DD7D81FE2262291300D35D8F /* by.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F22262291300D35D8F /* by.png */; };
+		DD7D82002262291300D35D8F /* ss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F42262291300D35D8F /* ss.jpg */; };
+		DD7D82012262291300D35D8F /* sy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F52262291300D35D8F /* sy.jpg */; };
+		DD7D82022262291300D35D8F /* jn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F62262291300D35D8F /* jn.jpg */; };
+		DD7D82032262291300D35D8F /* sz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F72262291300D35D8F /* sz.jpg */; };
+		DD7D82042262291300D35D8F /* jx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F82262291300D35D8F /* jx.jpg */; };
+		DD7D82052262291300D35D8F /* tx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81F92262291300D35D8F /* tx.jpg */; };
+		DD7D82062262291300D35D8F /* mj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D81FA2262291300D35D8F /* mj.jpg */; };
+		DD7D820822622D3A00D35D8F /* sp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D820722622D3A00D35D8F /* sp.jpg */; };
+		DD7D820B22622DEC00D35D8F /* ShapeLayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D820922622DEB00D35D8F /* ShapeLayerTool.m */; };
+		DD7D820E22622E7600D35D8F /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D820D22622E7500D35D8F /* UIView+BorderLine.m */; };
+		DD7D82112262AE3900D35D8F /* XZ_ChooseYSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D82102262AE3900D35D8F /* XZ_ChooseYSViewController.m */; };
+		DD7D82132262B07900D35D8F /* xzys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D82122262B07900D35D8F /* xzys.jpg */; };
+		DD7D82152262B7D900D35D8F /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD7D82142262B7D900D35D8F /* timg.jpg */; };
+		DD7D82182262BB4E00D35D8F /* XZ_DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D82172262BB4E00D35D8F /* XZ_DayViewController.m */; };
+		DD7D821B2262C49900D35D8F /* XZ_DayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7D821A2262C49900D35D8F /* XZ_DayCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F443C1549827D1A4F34C33 /* libPods-LJXXZYS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJXXZYS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FB842809F1647E62E03156 /* Pods-LJXXZYS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJXXZYS.debug.xcconfig"; path = "Target Support Files/Pods-LJXXZYS/Pods-LJXXZYS.debug.xcconfig"; sourceTree = "<group>"; };
+		8BBC8449D9BA39F37429D016 /* Pods-LJXXZYS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJXXZYS.release.xcconfig"; path = "Target Support Files/Pods-LJXXZYS/Pods-LJXXZYS.release.xcconfig"; sourceTree = "<group>"; };
 		DD7D81B022621EFA00D35D8F /* LJXXZYS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJXXZYS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7D81B322621EFA00D35D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD7D81B422621EFA00D35D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +77,36 @@
 		DD7D81D322621EFC00D35D8F /* LJXXZYSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJXXZYSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7D81D722621EFC00D35D8F /* LJXXZYSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXXZYSUITests.m; sourceTree = "<group>"; };
 		DD7D81D922621EFC00D35D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7D81E522621F1000D35D8F /* XZ_RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_RootViewController.h; sourceTree = "<group>"; };
+		DD7D81E622621F1000D35D8F /* XZ_RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_RootViewController.m; sourceTree = "<group>"; };
+		DD7D81E822621F2000D35D8F /* xingzuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xingzuo.jpg; sourceTree = "<group>"; };
+		DD7D81EA2262203000D35D8F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DD7D81EB2262248B00D35D8F /* XZ_CollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_CollectionCell.h; sourceTree = "<group>"; };
+		DD7D81EC2262248B00D35D8F /* XZ_CollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_CollectionCell.m; sourceTree = "<group>"; };
+		DD7D81EF2262291300D35D8F /* cn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cn.jpg; sourceTree = "<group>"; };
+		DD7D81F02262291300D35D8F /* shuangzi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shuangzi.jpg; sourceTree = "<group>"; };
+		DD7D81F12262291300D35D8F /* tc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tc.jpg; sourceTree = "<group>"; };
+		DD7D81F22262291300D35D8F /* by.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = by.png; sourceTree = "<group>"; };
+		DD7D81F42262291300D35D8F /* ss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ss.jpg; sourceTree = "<group>"; };
+		DD7D81F52262291300D35D8F /* sy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sy.jpg; sourceTree = "<group>"; };
+		DD7D81F62262291300D35D8F /* jn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jn.jpg; sourceTree = "<group>"; };
+		DD7D81F72262291300D35D8F /* sz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sz.jpg; sourceTree = "<group>"; };
+		DD7D81F82262291300D35D8F /* jx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jx.jpg; sourceTree = "<group>"; };
+		DD7D81F92262291300D35D8F /* tx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tx.jpg; sourceTree = "<group>"; };
+		DD7D81FA2262291300D35D8F /* mj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mj.jpg; sourceTree = "<group>"; };
+		DD7D820722622D3A00D35D8F /* sp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp.jpg; sourceTree = "<group>"; };
+		DD7D820922622DEB00D35D8F /* ShapeLayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerTool.m; sourceTree = "<group>"; };
+		DD7D820A22622DEC00D35D8F /* ShapeLayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerTool.h; sourceTree = "<group>"; };
+		DD7D820C22622E7500D35D8F /* UIView+BorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BorderLine.h"; sourceTree = "<group>"; };
+		DD7D820D22622E7500D35D8F /* UIView+BorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BorderLine.m"; sourceTree = "<group>"; };
+		DD7D820F2262AE3900D35D8F /* XZ_ChooseYSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_ChooseYSViewController.h; sourceTree = "<group>"; };
+		DD7D82102262AE3900D35D8F /* XZ_ChooseYSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_ChooseYSViewController.m; sourceTree = "<group>"; };
+		DD7D82122262B07900D35D8F /* xzys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xzys.jpg; sourceTree = "<group>"; };
+		DD7D82142262B7D900D35D8F /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		DD7D82162262BB4E00D35D8F /* XZ_DayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_DayViewController.h; sourceTree = "<group>"; };
+		DD7D82172262BB4E00D35D8F /* XZ_DayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_DayViewController.m; sourceTree = "<group>"; };
+		DD7D82192262C49900D35D8F /* XZ_DayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZ_DayCell.h; sourceTree = "<group>"; };
+		DD7D821A2262C49900D35D8F /* XZ_DayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ_DayCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C1FD672CEF4B97952645C9 /* libPods-LJXXZYS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +135,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2059DF7E0A3F11185D595630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F443C1549827D1A4F34C33 /* libPods-LJXXZYS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4D868323F6D60CFFF0504F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70FB842809F1647E62E03156 /* Pods-LJXXZYS.debug.xcconfig */,
+				8BBC8449D9BA39F37429D016 /* Pods-LJXXZYS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD7D81A722621EFA00D35D8F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				DD7D81CB22621EFC00D35D8F /* LJXXZYSTests */,
 				DD7D81D622621EFC00D35D8F /* LJXXZYSUITests */,
 				DD7D81B122621EFA00D35D8F /* Products */,
+				D4D868323F6D60CFFF0504F7 /* Pods */,
+				2059DF7E0A3F11185D595630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +177,21 @@
 		DD7D81B222621EFA00D35D8F /* LJXXZYS */ = {
 			isa = PBXGroup;
 			children = (
+				DD7D820C22622E7500D35D8F /* UIView+BorderLine.h */,
+				DD7D820D22622E7500D35D8F /* UIView+BorderLine.m */,
+				DD7D820A22622DEC00D35D8F /* ShapeLayerTool.h */,
+				DD7D820922622DEB00D35D8F /* ShapeLayerTool.m */,
+				DD7D81EE2262291300D35D8F /* Source */,
 				DD7D81B322621EFA00D35D8F /* AppDelegate.h */,
 				DD7D81B422621EFA00D35D8F /* AppDelegate.m */,
+				DD7D81E522621F1000D35D8F /* XZ_RootViewController.h */,
+				DD7D81E622621F1000D35D8F /* XZ_RootViewController.m */,
+				DD7D81EB2262248B00D35D8F /* XZ_CollectionCell.h */,
+				DD7D81EC2262248B00D35D8F /* XZ_CollectionCell.m */,
+				DD7D820F2262AE3900D35D8F /* XZ_ChooseYSViewController.h */,
+				DD7D82102262AE3900D35D8F /* XZ_ChooseYSViewController.m */,
+				DD7D82162262BB4E00D35D8F /* XZ_DayViewController.h */,
+				DD7D82172262BB4E00D35D8F /* XZ_DayViewController.m */,
 				DD7D81B622621EFA00D35D8F /* ViewController.h */,
 				DD7D81B722621EFA00D35D8F /* ViewController.m */,
 				DD7D81B922621EFA00D35D8F /* Main.storyboard */,
@@ -110,6 +199,9 @@
 				DD7D81BE22621EFC00D35D8F /* LaunchScreen.storyboard */,
 				DD7D81C122621EFC00D35D8F /* Info.plist */,
 				DD7D81C222621EFC00D35D8F /* main.m */,
+				DD7D81EA2262203000D35D8F /* PrefixHeader.pch */,
+				DD7D82192262C49900D35D8F /* XZ_DayCell.h */,
+				DD7D821A2262C49900D35D8F /* XZ_DayCell.m */,
 			);
 			path = LJXXZYS;
 			sourceTree = "<group>";
@@ -132,6 +224,28 @@
 			path = LJXXZYSUITests;
 			sourceTree = "<group>";
 		};
+		DD7D81EE2262291300D35D8F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DD7D82142262B7D900D35D8F /* timg.jpg */,
+				DD7D82122262B07900D35D8F /* xzys.jpg */,
+				DD7D81E822621F2000D35D8F /* xingzuo.jpg */,
+				DD7D81EF2262291300D35D8F /* cn.jpg */,
+				DD7D81F02262291300D35D8F /* shuangzi.jpg */,
+				DD7D81F12262291300D35D8F /* tc.jpg */,
+				DD7D81F22262291300D35D8F /* by.png */,
+				DD7D81F42262291300D35D8F /* ss.jpg */,
+				DD7D81F52262291300D35D8F /* sy.jpg */,
+				DD7D81F62262291300D35D8F /* jn.jpg */,
+				DD7D820722622D3A00D35D8F /* sp.jpg */,
+				DD7D81F72262291300D35D8F /* sz.jpg */,
+				DD7D81F82262291300D35D8F /* jx.jpg */,
+				DD7D81F92262291300D35D8F /* tx.jpg */,
+				DD7D81FA2262291300D35D8F /* mj.jpg */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7D81DC22621EFC00D35D8F /* Build configuration list for PBXNativeTarget "LJXXZYS" */;
 			buildPhases = (
+				8CB8147BE50E9CA1F3C27CCC /* [CP] Check Pods Manifest.lock */,
 				DD7D81AC22621EFA00D35D8F /* Sources */,
 				DD7D81AD22621EFA00D35D8F /* Frameworks */,
 				DD7D81AE22621EFA00D35D8F /* Resources */,
+				D173D60BBFFEE892E9ACC974 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +351,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7D82032262291300D35D8F /* sz.jpg in Resources */,
+				DD7D82042262291300D35D8F /* jx.jpg in Resources */,
+				DD7D81FB2262291300D35D8F /* cn.jpg in Resources */,
 				DD7D81C022621EFC00D35D8F /* LaunchScreen.storyboard in Resources */,
+				DD7D82152262B7D900D35D8F /* timg.jpg in Resources */,
 				DD7D81BD22621EFC00D35D8F /* Assets.xcassets in Resources */,
+				DD7D82052262291300D35D8F /* tx.jpg in Resources */,
+				DD7D81E922621F2000D35D8F /* xingzuo.jpg in Resources */,
+				DD7D82012262291300D35D8F /* sy.jpg in Resources */,
+				DD7D820822622D3A00D35D8F /* sp.jpg in Resources */,
+				DD7D82022262291300D35D8F /* jn.jpg in Resources */,
+				DD7D82132262B07900D35D8F /* xzys.jpg in Resources */,
+				DD7D81FE2262291300D35D8F /* by.png in Resources */,
+				DD7D82002262291300D35D8F /* ss.jpg in Resources */,
+				DD7D81FC2262291300D35D8F /* shuangzi.jpg in Resources */,
+				DD7D82062262291300D35D8F /* mj.jpg in Resources */,
+				DD7D81FD2262291300D35D8F /* tc.jpg in Resources */,
 				DD7D81BB22621EFA00D35D8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +388,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CB8147BE50E9CA1F3C27CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJXXZYS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D173D60BBFFEE892E9ACC974 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJXXZYS/Pods-LJXXZYS-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LJXXZYS/Pods-LJXXZYS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD7D81AC22621EFA00D35D8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD7D81B822621EFA00D35D8F /* ViewController.m in Sources */,
+				DD7D820B22622DEC00D35D8F /* ShapeLayerTool.m in Sources */,
+				DD7D821B2262C49900D35D8F /* XZ_DayCell.m in Sources */,
+				DD7D82182262BB4E00D35D8F /* XZ_DayViewController.m in Sources */,
+				DD7D820E22622E7600D35D8F /* UIView+BorderLine.m in Sources */,
+				DD7D82112262AE3900D35D8F /* XZ_ChooseYSViewController.m in Sources */,
+				DD7D81ED2262248B00D35D8F /* XZ_CollectionCell.m in Sources */,
 				DD7D81C322621EFC00D35D8F /* main.m in Sources */,
+				DD7D81E722621F1000D35D8F /* XZ_RootViewController.m in Sources */,
 				DD7D81B522621EFA00D35D8F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,33 +612,41 @@
 		};
 		DD7D81DD22621EFC00D35D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FB842809F1647E62E03156 /* Pods-LJXXZYS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXXZYS/PrefixHeader.pch";
 				INFOPLIST_FILE = LJXXZYS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zecaifu-luanjinxin.LJXXZYS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DD7D81DE22621EFC00D35D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBC8449D9BA39F37429D016 /* Pods-LJXXZYS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXXZYS/PrefixHeader.pch";
 				INFOPLIST_FILE = LJXXZYS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zecaifu-luanjinxin.LJXXZYS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
