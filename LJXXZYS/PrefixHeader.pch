@@ -9,6 +9,15 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#define SAFE_AREA_INSETS_BOTTOM safeAreaInsets().bottom
+
+#define TodayAPPKey @"6fc88b8cbab469ca4df98bad0bc23fe4"
+#define QQAPPKey @"baee8c17b17c0c1de6bee40f8d8a03bc"
+#define APPKey @"031cab289da743cb85799f005f2636dd"
+
+/** 程序版本号 */
+#define APP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
 //根据屏幕宽度计算对应View的高
 #define INMFit(value) ((value * INMScreenW) / 375.0f)
 
@@ -20,6 +29,14 @@
 /********************屏幕宽和高*******************/
 #define INMScreenW [UIScreen mainScreen].bounds.size.width
 #define INMScreenH [UIScreen mainScreen].bounds.size.height
+/**字体*/
+#define INMFontSize(x) [UIFont systemFontOfSize:(INMScreenW > 374 ? (INMScreenW > 375 ? x * 1.1 : x ) : x / 1.1)]
+
+/* URLDefine  */
+#define BaseURL @"http://web.juhe.cn:8080/constellation/getAll?"
+#define QQBaseURL @"http://japi.juhe.cn/qqevaluate/qq?"
+#define TodayBaseURL @"http://api.juheapi.com/japi/toh?"
+
 
 /** import **/
 #import <AFNetworking.h>
@@ -34,7 +51,7 @@
 #import <UMCommon/UMCommon.h>
 #import <AdSupport/AdSupport.h>
 #import "WMPageController.h"
-
-#import "ShapeLayerTool.h"
+#import "LJXRequestTool.h"
+#import "Gradient.h"
 
 #endif /* PrefixHeader_pch */

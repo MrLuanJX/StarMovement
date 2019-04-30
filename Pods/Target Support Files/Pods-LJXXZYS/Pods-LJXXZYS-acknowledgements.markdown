@@ -57,6 +57,14 @@ Copyright jiguang.cn
 
 Copyright jpush.cn
 
+## JPush
+
+Copyright jiguang.cn
+
+## JShare
+
+Copyright jiguang.cn
+
 ## MJExtension
 
 Copyright (c) 2013-2019 MJExtension (https://github.com/CoderMJLee/MJExtension)

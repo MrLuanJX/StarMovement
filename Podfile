@@ -17,4 +17,7 @@ target 'LJXXZYS’ do
     pod 'JAnalytics'
     pod 'YYCache'
     pod 'PrintBeautifulLog'
+    pod 'JPush'
+    pod 'JShare'
+
 end
